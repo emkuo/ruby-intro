@@ -15,3 +15,23 @@
 # HINTS
 # Learn to read the documentation!
 # https://ruby-doc.org/core-2.7.0/Array.html
+
+my_shopping_list = ["milk", "eggs", "bacon"]
+#puts my_shopping_list
+
+friend_shopping_list = ["beer", "cookies", "apples"]
+#puts friend_shopping_list
+
+# combine the two lists together 
+shared_list = my_shopping_list + friend_shopping_list
+# puts shared_list
+
+# sort the list 
+sorted_list = shared_list.sort 
+# puts sorted_list
+
+# filter out duplicates 
+unique_sorted_list = sorted_list.uniq 
+# puts unique_sorted_list
+
+puts 
