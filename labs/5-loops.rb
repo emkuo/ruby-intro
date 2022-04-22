@@ -9,6 +9,21 @@
 ranks = [2, 3, 4, 5, 6, 7, 8, 9, 10, "Jack", "Queen", "King", "Ace"]
 suits = ["Clubs", "Diamonds", "Hearts", "Spades"]
 
+# how do we combine ranks and suits together 
+
+for rank in ranks 
+    # first loop inside a loop is rank == 2
+    # second loop inside a loop is rank == 3 
+    for suit in suits 
+        # first loop inside a loop is suit == "Clubs" 
+        # second loop inside a loop is == "Diamonds"
+        # third loop inside a loop is == "Hearts"
+        # third loop inside a loop is == "Spades"
+    puts "#{rank} of #{suit}" 
+    end 
+end
+
+
 # Sample output:
 # 2 of Clubs
 # 2 of Diamonds

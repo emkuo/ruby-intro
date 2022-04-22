@@ -8,4 +8,20 @@
 # end
 
 # Loop through tacos
+tacos = ["carnitas", "carne asada", "pollo", "pescado"]
+
 # tacos = ["carnitas", "carne asada", "pollo", "pescado"]
+# number_of_times = 0
+# loop do 
+#   if number_of_times == tacos.count
+#     break
+#   end 
+#   puts tacos[number_of_times] 
+#   puts taco 
+#   number_of_times = number_of_times + 1 
+# end 
+
+for taco in tacos 
+    puts taco 
+end
+
